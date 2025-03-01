@@ -353,27 +353,27 @@ airportDropdown.addEventListener('change', (event) => {
 
 // Ground chart data (replace with actual image paths)
 const groundCharts = {
-    "IBAR": "s1ahen/flightstripmanager/PTFS Ground Charts/IBARGroundChart.svg",
-    "IHEN": "s1ahen/flightstripmanager/PTFS Ground Charts/IHENGroundChart.svg",
-    "ILAR": "s1ahen/flightstripmanager/PTFS Ground Charts/ILARGroundChart.svg",
-    "IIAB": "s1ahen/flightstripmanager/PTFS Ground Charts/IIABGroundChart.svg",
-    "IPAP": "s1ahen/flightstripmanager/PTFS Ground Charts/IPAPGroundChart.svg",
-    "IGRV": "s1ahen/flightstripmanager/PTFS Ground Charts/IGRVGroundChart.svg",
-    "IJAF": "s1ahen/flightstripmanager/PTFS Ground Charts/IJAFGroundChart.svg",
-    "IZOL": "s1ahen/flightstripmanager/PTFS Ground Charts/IZOLGroundChart.svg",
-    "ISCM": "s1ahen/flightstripmanager/PTFS Ground Charts/ISCMGroundChart.svg",
-    "IDCS": "s1ahen/flightstripmanager/PTFS Ground Charts/IDCSGroundChart.svg",
-    "ITKO": "s1ahen/flightstripmanager/PTFS Ground Charts/ITKOGroundChart.svg",
-    "ILKL": "s1ahen/flightstripmanager/PTFS Ground Charts/ILKLGroundChart.svg",
-    "IPPH": "s1ahen/flightstripmanager/PTFS Ground Charts/IPPHGroundChart.svg",
-    "IGAR": "s1ahen/flightstripmanager/PTFS Ground Charts/IGARGroundChart.svg",
-    "IBLT": "s1ahen/flightstripmanager/PTFS Ground Charts/IBLTGroundChart.svg",
-    "IRFD": "s1ahen/flightstripmanager/PTFS Ground Charts/IRFDGroundChart.svg",
-    "IMLR": "s1ahen/flightstripmanager/PTFS Ground Charts/IMLRGroundChart.svg",
-    "ITRC": "s1ahen/flightstripmanager/PTFS Ground Charts/ITRCGroundChart.svg",
-    "IBTH": "s1ahen/flightstripmanager/PTFS Ground Charts/IBTHGroundChart.svg",
-    "ISAU": "s1ahen/flightstripmanager/PTFS Ground Charts/ISAUGroundChart.svg",
-    "ISKP": "s1ahen/flightstripmanager/PTFS Ground Charts/ISKPGroundChart.svg"
+    "IBAR": "PTFS Ground Charts/IBARGroundChart.svg",
+    "IHEN": "PTFS Ground Charts/IHENGroundChart.svg",
+    "ILAR": "PTFS Ground Charts/ILARGroundChart.svg",
+    "IIAB": "PTFS Ground Charts/IIABGroundChart.svg",
+    "IPAP": "PTFS Ground Charts/IPAPGroundChart.svg",
+    "IGRV": "PTFS Ground Charts/IGRVGroundChart.svg",
+    "IJAF": "PTFS Ground Charts/IJAFGroundChart.svg",
+    "IZOL": "PTFS Ground Charts/IZOLGroundChart.svg",
+    "ISCM": "PTFS Ground Charts/ISCMGroundChart.svg",
+    "IDCS": "PTFS Ground Charts/IDCSGroundChart.svg",
+    "ITKO": "PTFS Ground Charts/ITKOGroundChart.svg",
+    "ILKL": "PTFS Ground Charts/ILKLGroundChart.svg",
+    "IPPH": "PTFS Ground Charts/IPPHGroundChart.svg",
+    "IGAR": "PTFS Ground Charts/IGARGroundChart.svg",
+    "IBLT": "PTFS Ground Charts/IBLTGroundChart.svg",
+    "IRFD": "PTFS Ground Charts/IRFDGroundChart.svg",
+    "IMLR": "PTFS Ground Charts/IMLRGroundChart.svg",
+    "ITRC": "PTFS Ground Charts/ITRCGroundChart.svg",
+    "IBTH": "PTFS Ground Charts/IBTHGroundChart.svg",
+    "ISAU": "PTFS Ground Charts/ISAUGroundChart.svg",
+    "ISKP": "PTFS Ground Charts/ISKPGroundChart.svg"
     // Add more airports and their ground chart paths as needed
 };
 
