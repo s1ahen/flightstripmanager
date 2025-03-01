@@ -353,27 +353,27 @@ airportDropdown.addEventListener('change', (event) => {
 
 // Ground chart data (replace with actual image paths)
 const groundCharts = {
-    "IBAR": "path/to/ibar-ground-chart.jpg",
-    "IHEN": "path/to/ihen-ground-chart.jpg",
-    "ILAR": "path/to/ilar-ground-chart.jpg",
-    "IIAB": "path/to/iiab-ground-chart.jpg",
-    "IPAP": "path/to/ipap-ground-chart.jpg",
-    "IGRV": "path/to/igrv-ground-chart.jpg",
-    "IJAF": "path/to/ijaf-ground-chart.jpg",
-    "IZOL": "path/to/izol-ground-chart.jpg",
-    "ISCM": "path/to/iscm-ground-chart.jpg",
-    "IDCS": "path/to/idcs-ground-chart.jpg",
-    "ITKO": "path/to/itko-ground-chart.jpg",
-    "ILKL": "path/to/ilkl-ground-chart.jpg",
-    "IPPH": "path/to/ipph-ground-chart.jpg",
-    "IGAR": "path/to/igar-ground-chart.jpg",
-    "IBLT": "path/to/iblt-ground-chart.jpg",
-    "IRFD": "path/to/irfd-ground-chart.jpg",
-    "IMLR": "path/to/imlr-ground-chart.jpg",
-    "ITRC": "path/to/itrc-ground-chart.jpg",
-    "IBTH": "path/to/ibth-ground-chart.jpg",
-    "ISAU": "path/to/isau-ground-chart.jpg",
-    "ISKP": "path/to/iskp-ground-chart.jpg"
+    "IBAR": "s1ahen/flightstripmanager/PTFS Ground Charts/IBARGroundChart.svg",
+    "IHEN": "s1ahen/flightstripmanager/PTFS Ground Charts/IHENGroundChart.svg",
+    "ILAR": "s1ahen/flightstripmanager/PTFS Ground Charts/ILARGroundChart.svg",
+    "IIAB": "s1ahen/flightstripmanager/PTFS Ground Charts/IIABGroundChart.svg",
+    "IPAP": "s1ahen/flightstripmanager/PTFS Ground Charts/IPAPGroundChart.svg",
+    "IGRV": "s1ahen/flightstripmanager/PTFS Ground Charts/IGRVGroundChart.svg",
+    "IJAF": "s1ahen/flightstripmanager/PTFS Ground Charts/IJAFGroundChart.svg",
+    "IZOL": "s1ahen/flightstripmanager/PTFS Ground Charts/IZOLGroundChart.svg",
+    "ISCM": "s1ahen/flightstripmanager/PTFS Ground Charts/ISCMGroundChart.svg",
+    "IDCS": "s1ahen/flightstripmanager/PTFS Ground Charts/IDCSGroundChart.svg",
+    "ITKO": "s1ahen/flightstripmanager/PTFS Ground Charts/ITKOGroundChart.svg",
+    "ILKL": "s1ahen/flightstripmanager/PTFS Ground Charts/ILKLGroundChart.svg",
+    "IPPH": "s1ahen/flightstripmanager/PTFS Ground Charts/IPPHGroundChart.svg",
+    "IGAR": "s1ahen/flightstripmanager/PTFS Ground Charts/IGARGroundChart.svg",
+    "IBLT": "s1ahen/flightstripmanager/PTFS Ground Charts/IBLTGroundChart.svg",
+    "IRFD": "s1ahen/flightstripmanager/PTFS Ground Charts/IRFDGroundChart.svg",
+    "IMLR": "s1ahen/flightstripmanager/PTFS Ground Charts/IMLRGroundChart.svg",
+    "ITRC": "s1ahen/flightstripmanager/PTFS Ground Charts/ITRCGroundChart.svg",
+    "IBTH": "s1ahen/flightstripmanager/PTFS Ground Charts/IBTHGroundChart.svg",
+    "ISAU": "s1ahen/flightstripmanager/PTFS Ground Charts/ISAUGroundChart.svg",
+    "ISKP": "s1ahen/flightstripmanager/PTFS Ground Charts/ISKPGroundChart.svg"
     // Add more airports and their ground chart paths as needed
 };
 
