@@ -422,7 +422,9 @@ airportDropdown.addEventListener('change', (event) => {
 viewGroundChartBtn.addEventListener('click', () => {
     const selectedAirport = airportDropdown.value;
     if (selectedAirport && groundCharts[selectedAirport]) {
-        groundChartImage.src = groundCharts[selectedAirport];
+        const chartPath = groundCharts[selectedAirport];
+        console.log("Loading ground chart from:", chartPath); // Debugging
+        groundChartImage.src = chartPath;
         groundChartPopup.classList.remove('hidden');
     }
 });
