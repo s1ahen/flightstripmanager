@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Strip Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="airport-selector">
+            <label for="airport">Select Airport:</label>
+            <select id="airport">
+                <option value="">-- Select --</option>
+                <option value="IBAR">IBAR</option>
+                <option value="IHEN">IHEN</option>
+                <option value="ILAR">ILAR</option>
+                <option value="IIAB">IIAB</option>
+                <option value="IPAP">IPAP</option>
+                <option value="IGRV">IGRV</option>
+                <option value="IJAF">IJAF</option>
+                <option value="IZOL">IZOL</option>
+                <option value="ISCM">ISCM</option>
+                <option value="IDCS">IDCS</option>
+                <option value="ITKO">ITKO</option>
+                <option value="ILKL">ILKL</option>
+                <option value="IPPH">IPPH</option>
+                <option value="IGAR">IGAR</option>
+                <option value="IBLT">IBLT</option>
+                <option value="IRFD">IRFD</option>
+                <option value="IMLR">IMLR</option>
+                <option value="ITRC">ITRC</option>
+                <option value="IBTH">IBTH</option>
+                <option value="ISAU">ISAU</option>
+                <option value="ISKP">ISKP</option>
+                <!-- Add more airports as needed -->
+            </select>
+        </div>
+        <div class="frequencies">
+            <div><strong>Tower:</strong> <span id="tower-freq">-</span></div>
+            <div><strong>Ground:</strong> <span id="ground-freq">-</span></div>
+            <div><strong id="center1-name">-</strong> <span id="center1-freq">-</span></div>
+            <div><strong id="center2-name">-</strong> <span id="center2-freq">-</span></div>
+            <div><strong id="center3-name">-</strong> <span id="center3-freq">-</span></div>
+        </div>
+        <button id="view-ground-chart" class="hidden">View Ground Chart</button>
+    </div>
+
+    <!-- Ground Chart Popup -->
+    <div id="ground-chart-popup" class="popup hidden">
+        <div class="popup-content">
+            <span id="close-popup" class="close-btn">&times;</span>
+            <img id="ground-chart-image" src="" alt="Ground Chart">
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="createStrip"><i class="fas fa-plus"></i> Add Card</button>
+        <button id="deleteMode"><i class="fas fa-trash"></i> Delete Mode</button>
+    </div>
+    <div class="columns">
+        <div id="departure" class="column"><h2>Departure</h2></div>
+        <div id="approach" class="column"><h2>Approach</h2></div>
+        <div id="ground" class="column"><h2>Ground</h2></div>
+        <div id="tower" class="column"><h2>Tower</h2></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
